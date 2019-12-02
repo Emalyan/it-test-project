@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Emalyan/it-test-project.git/static/css/main.9c78fd67.chunk.css",
+    "main.js": "/Emalyan/it-test-project.git/static/js/main.f15ef8a9.chunk.js",
+    "main.js.map": "/Emalyan/it-test-project.git/static/js/main.f15ef8a9.chunk.js.map",
+    "runtime-main.js": "/Emalyan/it-test-project.git/static/js/runtime-main.37aadcfc.js",
+    "runtime-main.js.map": "/Emalyan/it-test-project.git/static/js/runtime-main.37aadcfc.js.map",
+    "static/js/2.ef9413bd.chunk.js": "/Emalyan/it-test-project.git/static/js/2.ef9413bd.chunk.js",
+    "static/js/2.ef9413bd.chunk.js.map": "/Emalyan/it-test-project.git/static/js/2.ef9413bd.chunk.js.map",
+    "index.html": "/Emalyan/it-test-project.git/index.html",
+    "precache-manifest.3bd03eda14c173d3f0cfee0c5195e1b6.js": "/Emalyan/it-test-project.git/precache-manifest.3bd03eda14c173d3f0cfee0c5195e1b6.js",
+    "service-worker.js": "/Emalyan/it-test-project.git/service-worker.js",
+    "static/css/main.9c78fd67.chunk.css.map": "/Emalyan/it-test-project.git/static/css/main.9c78fd67.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37aadcfc.js",
+    "static/js/2.ef9413bd.chunk.js",
+    "static/css/main.9c78fd67.chunk.css",
+    "static/js/main.f15ef8a9.chunk.js"
+  ]
+}
