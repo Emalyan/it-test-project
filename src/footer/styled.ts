@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+import { footerHeight } from '../constants'
 
 const Footer = styled.footer`
     width: 100%;
-    height: 50px;
+    height: ${footerHeight};
     background-color: #8ac858;
     position: absolute;    
     bottom: 0; 

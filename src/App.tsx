@@ -1,7 +1,7 @@
 import React from 'react';
-import { Header } from './header/header';
-import { Footer } from './footer/footer';
-import { Body } from './content/body';
+import { Header } from './header/index';
+import { Footer } from './footer/index';
+import { Body } from './body/index';
 import { GlobalStyle } from './globalStyled';
 
 export const App = () => {

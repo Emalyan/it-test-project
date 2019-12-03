@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import { headerHeight } from '../constants'
 
 const Header = styled.header`    
-    height: 50px;
+    height: ${headerHeight};
     background-color: #8ac858;
 `;
 
