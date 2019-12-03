@@ -1,13 +1,15 @@
 import React from 'react';
 import { Header } from './header/header';
 import { Footer } from './footer/footer';
-import { Content } from './content/content';
+import { Body } from './content/body';
+import { GlobalStyle } from './globalStyled';
 
 export const App = () => {
     return (
         <>
+            <GlobalStyle/>
             <Header/>
-            <Content/>  
+            <Body/>  
             <Footer/>          
         </>
     );
