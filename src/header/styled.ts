@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { headerHeight } from '../constants'
+import styled from "styled-components";
+import { HEADER_HEIGHT } from "../constants";
 
-const Header = styled.header`    
-    height: ${headerHeight};
-    background-color: #8ac858;
+const Header = styled.header`
+  height: ${HEADER_HEIGHT};
+  background-color: #8ac858;
 `;
 
-export const Styled = { Header }
+export const Styled = { Header };

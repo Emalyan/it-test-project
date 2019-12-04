@@ -1,11 +1,6 @@
-import React from 'react';
-import { Styled } from './styled';
-import { MoviesBoard } from './movies-board';
+import React, { FunctionComponent } from "react";
+import { Styled } from "./styled";
 
-export const Body = () => {
-    return (
-        <Styled.Body>                        
-            <MoviesBoard />
-        </Styled.Body>
-    );
-}
+export const Body: FunctionComponent = (props) => {
+  return <Styled.Body>{props.children}</Styled.Body>;
+};

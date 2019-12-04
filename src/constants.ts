@@ -1,2 +1,2 @@
-export const footerHeight = "50px";
-export const headerHeight = "50px";
+export const FOOTER_HEIGHT = "50px";
+export const HEADER_HEIGHT = "50px";
