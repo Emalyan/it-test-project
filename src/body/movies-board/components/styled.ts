@@ -12,7 +12,7 @@ const Card = styled.div`
 
 const Img = styled.img`
   width: inherit;
-  height: 100%;
+  height: inherit;
   border-radius: 13px;
 
   ${Card}:hover & {
@@ -67,7 +67,7 @@ const Button = styled.button`
   }
 
   &:active {
-    padding: calc(0.25em + 1px) 0.5em calc(0.25em - 1px);
+    padding: 6px 8px 6px;
     border-color: rgba(177, 159, 0, 1);
     box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.1),
       inset 0 1px 2px rgba(0, 0, 0, 0.3),
