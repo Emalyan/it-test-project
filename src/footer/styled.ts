@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { FOOTER_HEIGHT } from "../constants";
 
 const Footer = styled.footer`

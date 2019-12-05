@@ -1,9 +1,12 @@
+import { Route, Switch } from "react-router";
 import React from "react";
-import { Header } from "./header/index";
-import { Footer } from "./footer/index";
-import { Body } from "./body/index";
+
+import { Body } from "./body";
+import { Header } from "./header";
+import { Footer } from "./footer";
+import { MoviesBoard } from "./components";
+
 import { GlobalStyle } from "./globalStyled";
-import { MoviesBoard } from "./body/movies-board/index";
 
 export const App = () => {
   return (
@@ -11,9 +14,19 @@ export const App = () => {
       <GlobalStyle />
       <Header />
       <Body>
-        <MoviesBoard />
+        <AppRouter />
       </Body>
       <Footer />
     </>
+  );
+};
+
+const AppRouter = () => {
+  return (
+    <Switch>
+      <Route path="/gallery">
+        <MoviesBoard />
+      </Route>
+    </Switch>
   );
 };
