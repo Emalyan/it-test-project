@@ -24,7 +24,7 @@ export const App = () => {
 const AppRouter = () => {
   return (
     <Switch>
-      <Route path="/gallery" component={() => <MoviesBoard />} />
+      <Route path="/gallery" component={MoviesBoard} />
     </Switch>
   );
 };
