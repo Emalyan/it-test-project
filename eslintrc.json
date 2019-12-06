@@ -1,0 +1,141 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+
+	"extends": [
+		"plugin:react/recommended",
+		"prettier/@typescript-eslint" // Disable conflicting rules,
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "tsconfig.json",
+		"sourceType": "module"
+	},
+	"plugins": ["@typescript-eslint", "prettier"],
+	"rules": {
+		"react/prop-types": "off",
+		"prop-types": "off",
+		"prettier/prettier": "warn",
+		"@typescript-eslint/adjacent-overload-signatures": "error",
+		"@typescript-eslint/class-name-casing": "error",
+		"@typescript-eslint/consistent-type-assertions": "error",
+		"@typescript-eslint/consistent-type-definitions": "error",
+		"@typescript-eslint/interface-name-prefix": "error",
+		"@typescript-eslint/member-ordering": "error",
+		"@typescript-eslint/no-empty-function": "error",
+		"@typescript-eslint/no-explicit-any": "error",
+		"@typescript-eslint/no-namespace": "error",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"@typescript-eslint/no-param-reassign": "off",
+		"@typescript-eslint/no-require-imports": "off",
+		"@typescript-eslint/no-this-alias": "off",
+		"@typescript-eslint/no-var-requires": "off",
+		"@typescript-eslint/prefer-for-of": "error",
+		"@typescript-eslint/prefer-namespace-keyword": "error",
+		"@typescript-eslint/triple-slash-reference": "error",
+		"@typescript-eslint/type-annotation-spacing": "error",
+		"camelcase": "error",
+		"complexity": [
+			"error",
+			{
+				"max": 10
+			}
+		],
+		"constructor-super": "error",
+		"curly": "error",
+		"default-case": "error",
+		"dot-notation": "error",
+		"eol-last": "error",
+		"eqeqeq": ["error", "smart"],
+		"guard-for-in": "error",
+		"id-blacklist": ["error", "any", "Number", "String", "Boolean"],
+		"id-match": "error",
+		"import/no-extraneous-dependencies": "off",
+		"import/no-internal-modules": "off",
+		"no-bitwise": "error",
+		"no-caller": "error",
+		"no-cond-assign": "error",
+		"no-console": [
+			"error",
+			{
+				"allow": [
+					"warn",
+					"info",
+					"dir",
+					"timeLog",
+					"assert",
+					"clear",
+					"count",
+					"countReset",
+					"group",
+					"groupEnd",
+					"table",
+					"dirxml",
+					"error",
+					"groupCollapsed",
+					"Console",
+					"profile",
+					"profileEnd",
+					"timeStamp",
+					"context"
+				]
+			}
+		],
+		"no-constant-condition": "error",
+		"no-debugger": "error",
+		"no-duplicate-case": "error",
+		"no-duplicate-imports": "error",
+		"no-empty": "error",
+		"no-eval": "error",
+		"no-fallthrough": "error",
+		"no-magic-numbers": "off",
+		"no-multiple-empty-lines": "error",
+		"no-new-wrappers": "error",
+		"no-null/no-null": "off",
+		"no-redeclare": "error",
+		"no-return-await": "error",
+		"no-sequences": "error",
+		"react/display-name": "off",
+		"react/jsx-uses-react": "error",
+		"react/jsx-uses-vars": "error",
+		"no-useless-escape": "off",
+		"react/no-unescaped-entities": "off",
+		"no-mixed-spaces-and-tabs": "off",
+		"no-shadow": [
+			"error",
+			{
+				"hoist": "all"
+			}
+		],
+		"no-template-curly-in-string": "error",
+		"no-throw-literal": "error",
+		"no-trailing-spaces": "error",
+		"no-undef-init": "error",
+		"no-underscore-dangle": [
+			"error",
+			{
+				"allow": ["off"]
+			}
+		],
+		"no-unsafe-finally": "error",
+		"no-unused-expressions": "error",
+		"no-unused-labels": "error",
+		"no-var": "error",
+		"prefer-const": "error",
+		"prefer-object-spread": "error",
+		"prefer-template": "error",
+		"radix": "error",
+		"space-before-function-paren": [
+			"error",
+			{
+				"anonymous": "always",
+				"named": "never",
+				"asyncArrow": "always"
+			}
+		],
+		"spaced-comment": "error",
+		"use-isnan": "error"
+	}
+}

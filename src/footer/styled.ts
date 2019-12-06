@@ -1,11 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+
+import { FOOTER_HEIGHT } from "../constants";
 
 const Footer = styled.footer`
-    width: 100%;
-    height: 50px;
-    background-color: #8ac858;
-    position: absolute;    
-    bottom: 0; 
+  width: 100%;
+  height: ${FOOTER_HEIGHT}px;
+  background-color: #8ac858;
+  position: absolute;
+  bottom: 0;
 `;
 
-export const Styled = { Footer }
+export const Styled = { Footer };

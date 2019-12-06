@@ -1,0 +1,9 @@
+src/apps/storybook/*
+node_modules
+build
+public
+# path/to/project/root/.eslintignore
+
+*test.*
+*d.ts
+!.eslintrc.js
