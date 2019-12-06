@@ -6,7 +6,7 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import { MoviesBoard } from "./components";
 
-import { GlobalStyle } from "./globalStyled";
+import { GlobalStyle } from "./global-styled";
 
 export const App = () => {
   return (

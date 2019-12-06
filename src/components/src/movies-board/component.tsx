@@ -5,10 +5,8 @@ import { MOVIES_API_URL } from "../../../constants";
 
 import { Styled } from "./styled";
 
-const initialValue: Movie[] = [];
-
 export const MoviesBoard = () => {
-  const [movies, setMovies] = useState(initialValue);
+  const [movies, setMovies] = useState<Movie[]>([]);
 
   useEffect(() => {
     getMovies(setMovies);
