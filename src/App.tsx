@@ -1,10 +1,10 @@
-import { Route, Switch } from "react-router";
+import { Switch } from "react-router";
 import React from "react";
 
 import { Body } from "./body";
 import { Header } from "./header";
 import { Footer } from "./footer";
-import { MoviesBoard } from "./components";
+import { MoviesBoardRoute } from "./components";
 
 import { GlobalStyle } from "./global-styled";
 
@@ -24,7 +24,7 @@ export const App = () => {
 const AppRouter = () => {
   return (
     <Switch>
-      <Route path="/gallery" component={MoviesBoard} />
+      <MoviesBoardRoute />
     </Switch>
   );
 };

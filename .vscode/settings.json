@@ -1,0 +1,71 @@
+{
+  "cSpell.words": [
+    "Droppable",
+    "Extremum",
+    "Signup",
+    "Truthy",
+    "antd",
+    "autoload",
+    "autosave",
+    "browserslist",
+    "camelcase",
+    "checkboxes",
+    "checkmark",
+    "devtools",
+    "docx",
+    "ecomm",
+    "evenodd",
+    "generate",
+    "grapesjs",
+    "html",
+    "inspectable",
+    "iris",
+    "irisplus",
+    "lead-gen",
+    "lifecycle",
+    "make",
+    "mdbreact",
+    "middlewares",
+    "mobx",
+    "mst",
+    "nameof",
+    "oidc",
+    "openid",
+    "polyfill",
+    "prerequirements",
+    "promocode",
+    "pubsvs",
+    "react",
+    "remotedev",
+    "rerender",
+    "roboto",
+    "signin",
+    "signout",
+    "sourcemap",
+    "svgr",
+    "types",
+    "unmount",
+    "westech",
+    "xdescribe"
+  ],
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ]
+}
