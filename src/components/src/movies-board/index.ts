@@ -1,1 +1,2 @@
-export * from "./component";
+export * from "./route-component";
+export * from "./logic";

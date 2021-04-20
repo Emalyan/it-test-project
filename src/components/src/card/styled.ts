@@ -8,6 +8,7 @@ const Card = styled.div`
   border: 2px solid #8ac858;
   border-radius: 15px;
   word-break: break-word;
+  cursor: grab;
 `;
 
 const Img = styled.img`
@@ -16,6 +17,10 @@ const Img = styled.img`
   border-radius: 13px;
 
   ${Card}:hover & {
+    display: none;
+  }
+
+  #clone: focus {
     display: none;
   }
 `;
@@ -41,4 +46,8 @@ const Description = styled.div`
   }
 `;
 
-export const Styled = { Img, Card, Description };
+const Id = styled.div`
+  display: none;
+`;
+
+export const Styled = { Img, Card, Description, Id };

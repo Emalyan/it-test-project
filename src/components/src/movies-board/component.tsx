@@ -1,20 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { observer } from "mobx-react";
 
-import { Movie, Card } from "../card";
-import { MOVIES_API_URL } from "../../../constants";
+import { Card } from "../card";
+import { MovieInstance } from "../../../store/movie-board-store";
+import { useStore } from "../../../store/use-store";
 
 import { Styled } from "./styled";
 
-export const MoviesBoard = () => {
-  const [movies, setMovies] = useState<Movie[]>([]);
-
-  useEffect(() => {
-    getMovies(setMovies);
-  }, []);
-
+export const MoviesBoard = observer(() => {
+  const movies = useStore();
   return (
-    <Styled.MoviesBoard>
-      {movies.map(item => {
+    <Styled.MoviesBoard id="movies-board">
+      {movies.movies.map((item: MovieInstance) => {
         return (
           <Card
             key={item.id}
@@ -25,15 +22,10 @@ export const MoviesBoard = () => {
             actors={item.actors}
             vote={item.vote}
             count_vote={item.count_vote}
+            order={item.order}
           />
         );
       })}
     </Styled.MoviesBoard>
   );
-};
-
-const getMovies = async (setItems: (result: Movie[]) => void) => {
-  const response = await fetch(MOVIES_API_URL);
-  const data = await response.json();
-  setItems(data.result);
-};
+});
